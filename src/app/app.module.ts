@@ -7,12 +7,14 @@ import { KanbanBoardComponent } from './kanban-board/kanban-board.component';
 import { IgxNavbarModule, IgxButtonModule, IgxRippleModule, IgxIconModule, IgxAvatarModule, IgxButtonGroupModule, IgxCardModule, IgxDialogModule, IgxInputGroupModule, IgxSelectModule, IgxListModule } from '@infragistics/igniteui-angular';
 import { FormsModule } from '@angular/forms';
 import { ListViewComponent } from './list-view/list-view.component';
+import { MasterViewComponent } from './master-view/master-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     KanbanBoardComponent,
-    ListViewComponent
+    ListViewComponent,
+    MasterViewComponent
   ],
   imports: [
     BrowserModule,
