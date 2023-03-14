@@ -1,0 +1,349 @@
+<div class="column-layout list-view">
+  <igx-navbar class="navbar">
+    <igx-navbar-action>
+      <button igxButton="icon" igxRipple class="button">
+        <igx-icon>
+          dashboard
+        </igx-icon>
+      </button>
+    </igx-navbar-action>
+    <button igxButton="icon" igxRipple>
+      <igx-icon>
+        add_circle
+      </igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple class="button_1">
+      <igx-icon>
+        share
+      </igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple>
+      <igx-icon>
+        notifications
+      </igx-icon>
+    </button>
+    <button igxButton="icon" igxRipple>
+      <igx-icon>
+        account_circle
+      </igx-icon>
+    </button>
+    <igx-navbar-title>
+      Task Management
+    </igx-navbar-title>
+  </igx-navbar>
+  <div class="row-layout view">
+    <div class="column-layout group">
+      <div class="column-layout main">
+        <div class="row-layout heading">
+          <div class="row-layout left">
+            <igx-avatar initials="FP" [roundShape]="true" class="avatar"></igx-avatar>
+            <h6 class="fintech-project">
+              Fintech Project
+            </h6>
+            <button igxButton="icon" igxRipple class="button_2">
+              <igx-icon>
+                keyboard_arrow_down
+              </igx-icon>
+            </button>
+          </div>
+          <igx-buttongroup class="button-group">
+            <button igxButton="flat" igxRipple>
+              Button
+            </button>
+            <button igxButton="flat" igxRipple>
+              Button
+            </button>
+          </igx-buttongroup>
+        </div>
+        <div class="row-layout lists">
+          <div class="row-layout to-do">
+            <div class="column-layout group_1">
+              <div class="row-layout header">
+                <igx-icon class="icon">
+                  assignment
+                </igx-icon>
+                <h6 class="to-do_1">
+                  To do
+                </h6>
+                <igx-avatar initials="3" [roundShape]="true" class="avatar_1"></igx-avatar>
+              </div>
+              <igx-list class="list">
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/f74b28f7af6e17ef1acc613a543c5d7e60894342.png" [roundShape]="true" class="avatar_2"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Create brand guidelines</span>
+                  <span igxListLineSubTitle>Deadline: Nov 19, 2021</span>
+                  <span igxListAction>
+                    <igx-icon class="icon_1">
+                      attach_file
+                    </igx-icon>
+                  </span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/50d9864b1881d4e19ebd26bffde918f678532ce5.png" [roundShape]="true" class="avatar_3"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>App Preview</span>
+                  <span igxListLineSubTitle>Deadline: Nov 24, 2021</span>
+                  <span igxListAction>
+                    <igx-icon class="icon_1">
+                      attach_file
+                    </igx-icon>
+                  </span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/682f1e324671e66d4f33f82cdd48e6c66514069c.png" [roundShape]="true" class="avatar_4"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Cloud Integration</span>
+                  <span igxListLineSubTitle>Deadline: Nov 28, 2021</span>
+                </igx-list-item>
+              </igx-list>
+            </div>
+            <div class="right-border"></div>
+          </div>
+          <div class="row-layout to-do">
+            <div class="column-layout group_1">
+              <div class="row-layout header_1">
+                <igx-icon class="icon">
+                  developer_board
+                </igx-icon>
+                <h6 class="in-development">
+                  In Development
+                </h6>
+                <igx-avatar initials="5" [roundShape]="true" class="avatar_1"></igx-avatar>
+              </div>
+              <igx-list class="list">
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/50d9864b1881d4e19ebd26bffde918f678532ce5.png" [roundShape]="true" class="avatar_5"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Connect to DataSources</span>
+                  <span igxListLineSubTitle>Deadline: Oct 28, 2021</span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/a96fc8580fec2e162889751feb2b18ba27bb7b6d.png" [roundShape]="true" class="avatar_4"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Build App</span>
+                  <span igxListLineSubTitle>Deadline: Oct 28, 2021</span>
+                  <span igxListAction>
+                    <igx-icon class="icon_1">
+                      attach_file
+                    </igx-icon>
+                  </span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/baa70e9a2af2d197d6b178ac02647a76d6dd2979.png" [roundShape]="true" class="avatar_3"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Copy-Paste Update</span>
+                  <span igxListLineSubTitle>Deadline: Oct 24, 2021</span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/f74b28f7af6e17ef1acc613a543c5d7e60894342.png" [roundShape]="true" class="avatar_6"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Grid Data-Binding</span>
+                  <span igxListLineSubTitle>Deadline: Oct 26, 2021</span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/5d7fbe3ccaf5c048e20d1ebbcb2febe2284edddc.png" [roundShape]="true" class="avatar_6"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Main Dashboard Design</span>
+                  <span igxListLineSubTitle>Deadline: Oct 20, 2021</span>
+                </igx-list-item>
+              </igx-list>
+            </div>
+            <div class="right-border"></div>
+          </div>
+          <div class="row-layout to-do">
+            <div class="column-layout group_1">
+              <div class="row-layout header_2">
+                <igx-icon class="icon_2">
+                  assignment_late
+                </igx-icon>
+                <h6 class="validation">
+                  Validation
+                </h6>
+                <igx-avatar initials="4" [roundShape]="true" class="avatar_1"></igx-avatar>
+              </div>
+              <igx-list class="list">
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/e5a412effed749edfc9ef82fb8121ee7446ffe62.png" [roundShape]="true" class="avatar_5"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Update Samples</span>
+                  <span igxListLineSubTitle>Deadline: Oct 15, 2021</span>
+                  <span igxListAction>
+                    <igx-icon class="icon_1">
+                      attach_file
+                    </igx-icon>
+                  </span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/50d9864b1881d4e19ebd26bffde918f678532ce5.png" [roundShape]="true" class="avatar_7"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Floating Toolbar</span>
+                  <span igxListLineSubTitle>Deadline: Oct 14, 2021</span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/682f1e324671e66d4f33f82cdd48e6c66514069c.png" [roundShape]="true" class="avatar_6"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Input Update</span>
+                  <span igxListLineSubTitle>Deadline: Oct 17, 2021</span>
+                  <span igxListAction>
+                    <igx-icon class="icon_1">
+                      attach_file
+                    </igx-icon>
+                  </span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/a96fc8580fec2e162889751feb2b18ba27bb7b6d.png" [roundShape]="true" class="avatar_6"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>App Library</span>
+                  <span igxListLineSubTitle>Deadline: Oct 16, 2021</span>
+                  <span igxListAction>
+                    <igx-icon class="icon_1">
+                      attach_file
+                    </igx-icon>
+                  </span>
+                </igx-list-item>
+              </igx-list>
+            </div>
+            <div class="right-border"></div>
+          </div>
+          <div class="row-layout to-do">
+            <div class="column-layout group_1">
+              <div class="row-layout header_3">
+                <igx-icon class="icon">
+                  check_circle
+                </igx-icon>
+                <h6 class="done">
+                  Done
+                </h6>
+                <igx-avatar initials="5" [roundShape]="true" class="avatar_1"></igx-avatar>
+              </div>
+              <igx-list class="list">
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/49d39a0a56231fb45940bbf6b5732e30f9b4a842.png" [roundShape]="true" class="avatar_4"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Onboarding experience</span>
+                  <span igxListLineSubTitle>October 13, 2021</span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/f74b28f7af6e17ef1acc613a543c5d7e60894342.png" [roundShape]="true" class="avatar_5"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Design Specs</span>
+                  <span igxListLineSubTitle>October 9, 2021</span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/5d7fbe3ccaf5c048e20d1ebbcb2febe2284edddc.png" [roundShape]="true" class="avatar_6"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>File Parser</span>
+                  <span igxListLineSubTitle>October 10, 2021</span>
+                  <span igxListAction>
+                    <igx-icon class="icon_1">
+                      attach_file
+                    </igx-icon>
+                  </span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/f74b28f7af6e17ef1acc613a543c5d7e60894342.png" [roundShape]="true" class="avatar_6"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>Final Mockups</span>
+                  <span igxListLineSubTitle>October 14, 2021</span>
+                </igx-list-item>
+                <igx-list-item [isHeader]="false">
+                  <span igxListThumbnail>
+                    <igx-avatar src="/assets/baa70e9a2af2d197d6b178ac02647a76d6dd2979.png" [roundShape]="true" class="avatar_6"></igx-avatar>
+                  </span>
+                  <span igxListLineTitle>GitHub Integration</span>
+                  <span igxListLineSubTitle>September 30, 2021</span>
+                  <span igxListAction>
+                    <igx-icon class="icon_1">
+                      attach_file
+                    </igx-icon>
+                  </span>
+                </igx-list-item>
+              </igx-list>
+            </div>
+            <div class="right-border"></div>
+          </div>
+        </div>
+      </div>
+      <button igxButton="fab" igxRipple class="add-button">
+        <igx-icon>
+          add
+        </igx-icon>
+      </button>
+    </div>
+    <div class="column-layout sidebar">
+      <igx-icon class="icon_1">
+        group_add
+      </igx-icon>
+      <igx-avatar src="/assets/f74b28f7af6e17ef1acc613a543c5d7e60894342.png" [roundShape]="true" class="avatar_8"></igx-avatar>
+      <igx-avatar src="/assets/42d44cdeb85ec3e17a730db42b32d71f20e92f9f.png" [roundShape]="true" class="avatar_9"></igx-avatar>
+      <igx-avatar src="/assets/f8aed4bd1d1810d22091907ad0bb1364bf18cfb5.png" [roundShape]="true" class="avatar_9"></igx-avatar>
+      <igx-avatar src="/assets/a96fc8580fec2e162889751feb2b18ba27bb7b6d.png" [roundShape]="true" class="avatar_9"></igx-avatar>
+      <igx-avatar src="/assets/e5a412effed749edfc9ef82fb8121ee7446ffe62.png" [roundShape]="true" class="avatar_8"></igx-avatar>
+      <igx-avatar src="/assets/49d39a0a56231fb45940bbf6b5732e30f9b4a842.png" [roundShape]="true" class="avatar_9"></igx-avatar>
+      <igx-avatar src="/assets/682f1e324671e66d4f33f82cdd48e6c66514069c.png" [roundShape]="true" class="avatar_9"></igx-avatar>
+      <igx-avatar src="/assets/5d7fbe3ccaf5c048e20d1ebbcb2febe2284edddc.png" [roundShape]="true" class="avatar_9"></igx-avatar>
+    </div>
+  </div>
+  <div *ngIf="groupVisible1" class="row-layout dialog">
+    <igx-dialog [closeOnOutsideSelect]="true" [closeOnEscape]="true">
+      <igx-dialog-title>
+        <h5>
+          Add New Task
+        </h5>
+      </igx-dialog-title>
+      <ng-container>
+        <div class="column-layout body">
+          <igx-input-group type="box" class="input">
+            <input type="text" placeholder="Task Title" igxInput />
+            <label igxLabel>Label/Placeholder</label>
+          </igx-input-group>
+          <div class="row-layout group_2">
+            <igx-select type="box" placeholder="Pick a project" class="select">
+              <igx-select-item value="Option">
+                Option
+              </igx-select-item>
+              <igx-select-item value="Option">
+                Option
+              </igx-select-item>
+              <label igxLabel>Project</label>
+            </igx-select>
+            <igx-select type="box" placeholder="Set Status" class="select">
+              <igx-select-item value="Option">
+                Option
+              </igx-select-item>
+              <igx-select-item value="Option">
+                Option
+              </igx-select-item>
+              <label igxLabel>Status</label>
+            </igx-select>
+          </div>
+        </div>
+      </ng-container>
+      <igx-dialog-actions>
+        <button igxButton="flat" igxRipple class="button_3">
+          CANCEL
+        </button>
+        <button igxButton="flat" igxRipple class="button_4">
+          OK
+        </button>
+      </igx-dialog-actions>
+    </igx-dialog>
+  </div>
+</div>
